@@ -1,12 +1,11 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default function Detail() {
+export default function Article({route}) {
+
     return (
         <View>
-        <View>
-          <Text>DETAIL - 24news</Text>
+            <Text>Yoyo {route.params.title}</Text>
         </View>
-      </View>
     )
 }
